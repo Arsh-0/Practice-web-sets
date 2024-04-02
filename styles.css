@@ -108,7 +108,7 @@ p
 button 
 {
   color : white;
-  height : 24%;
+  padding : 12px;
   width : 100%;
   border : none;
   background-color : hsl(71, 73%, 54%);
@@ -136,3 +136,12 @@ button:hover
   transform : scale(1.02);
 }
 
+/* This is the at-rule which makes the whole thing responsive for mobile screens */
+@media (max-width : 650px)
+{
+  #bottom-left, #bottom-right, #card
+  {
+    height : auto;
+    width : 100%;
+  }
+}

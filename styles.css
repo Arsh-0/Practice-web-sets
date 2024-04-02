@@ -27,6 +27,7 @@ p
 
 #card 
 {
+  align-self : center;
   height: 400px;
   width: 600px;
   box-shadow: 1px -1px 19px -5px rgba(0, 0, 0, 1);

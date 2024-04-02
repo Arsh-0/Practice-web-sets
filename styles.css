@@ -136,3 +136,12 @@ button:hover
   transform : scale(1.02);
 }
 
+/* This is the line which makes the whole thing responsive for mobile screens as well. */
+@media (max-width : 650px)
+{
+  #bottom-left, #bottom-right, #card
+  {
+    width : 100%;
+    height : auto;
+  }
+}
